@@ -1,8 +1,6 @@
 # Portfolio
 ==========
 
-A collection of my projects and experiences as a web development enthusiast.
-
 ## About Me
 ------------
 
@@ -12,7 +10,7 @@ I'm Aung Htet Oo, a passionate and motivated web developer with a strong foundat
 -------------------
 * [Tabs Saver](https://github.com/BlaztiBoi/tab-saver)
 
-## Technologies
+## MY Skills 
 --------------
 
 * HTML
