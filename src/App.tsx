@@ -1,20 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { BlackjackGame } from './pages/BlackjackGame';
 import { Portfolio } from './pages/Portfolio';
 import { FloatingNav } from './components/common/FloatingNav';
-import { Home } from './pages/Home'
+
+// import FloatingHeader from './components/common/FloatingHeader';
+import Layout from './components/Layout';
 
 export default function App() {
   return (
     <Router>
       <div className="font-inter">
         <Routes>
-          <Route path="/" element={<Portfolio />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/blackjack" element={<BlackjackGame />} />
+          
+          <Route path="/"  element={<Layout />}>
+          <Route index element={<Portfolio />} />
+
+          </Route>
         </Routes>
-        <FloatingNav />
+        
       </div>
     </Router>
   );

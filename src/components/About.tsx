@@ -1,11 +1,12 @@
 import React from 'react';
-import { Code2, Database, Layout, Server } from 'lucide-react';
+import { Code2, Database, Layout, Brush, CurlyBraces, Server , Atom } from 'lucide-react';
 
 const skills = [
-  { name: 'Frontend Development', icon: Layout, level: 90 },
-  { name: 'Backend Development', icon: Server, level: 85 },
-  { name: 'Database Design', icon: Database, level: 80 },
-  { name: 'Clean Code', icon: Code2, level: 95 },
+  { name: 'HTML', icon: Code2, level: 80 },
+  { name: 'CSS', icon: Brush, level: 70 },
+  { name: 'JavaScript', icon: CurlyBraces, level: 90 },
+  { name: 'React', icon: Atom, level: 80 },
+  { name: 'Database', icon: Database, level: 75  },
 ];
 
 export function About() {
@@ -16,9 +17,7 @@ export function About() {
           <div>
             <h2 className="text-4xl font-bold text-[#2E5077] mb-6">About Me</h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with a keen eye for creating beautiful,
-              functional, and user-friendly websites. With expertise in modern web technologies,
-              I transform ideas into reality through clean and efficient code.
+            I am Aung Htet Oo, a passionate and motivated web development enthusiast. With a strong foundation in computing and a goal to become a professional full-stack developer, I am driven to create innovative and efficient digital solutions.
             </p>
             <div className="space-y-6">
               {skills.map((skill) => (
@@ -46,7 +45,7 @@ export function About() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
-              <div className="text-4xl font-bold text-[#2E5077]">5+</div>
+              <div className="text-4xl font-bold text-[#2E5077]">3+</div>
               <div className="text-gray-600">Years of Experience</div>
             </div>
           </div>
