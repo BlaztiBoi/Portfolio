@@ -31,7 +31,7 @@ export function Hero() {
         </div>
         <div className="flex gap-6 justify-center mb-16">
           <a
-            href="https://github.com/BlaztiBoi"
+            href="https://github.com/BlaztiBoi/Portfolio/"
             className="hover:text-[#79D7BE] transition-colors duration-300"
             target="_blank"
             rel="noopener noreferrer"
