@@ -449,8 +449,7 @@ function InvoiceGen() {
           Made by Blazt ( Aung Htet Oo )
         </span>
         <a
-          target="blank_"
-          href="https://toatotallyLegitPortfolioSitebyAungHtetoo.com"
+          href="/"
           className=" border-b border-indigo-300 hover:border-b hover:border-blue-700 transition duration-200"
         >
           Check out my portfolio {`>>>`}

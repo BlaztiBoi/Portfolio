@@ -189,7 +189,7 @@ function MiniShop() {
       </main>
       <div className="pt-4 bg-transparent backdrop-blur-lg shadow-lg shadow-neutral-400 max-w-full min-w-2xl py-1 flex-col flex justify-center items-center mx-auto font-mono text-center">
       <span className=" block w-full p-0 rounded-md">Made by Blazt ( Aung Htet Oo )</span>
-      <a target="blank_" href="https://toatotallyLegitPortfolioSitebyAungHtetoo.com" className=" border-b border-neutral-300 hover:border-b hover:border-neutral-700 transition duration-200">Check out my portfolio {`>>>`}</a>
+      <a href="/" className=" border-b border-neutral-300 hover:border-b hover:border-neutral-700 transition duration-200">Check out my portfolio {`>>>`}</a>
     </div>
     </div>
   );

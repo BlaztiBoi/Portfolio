@@ -42,9 +42,9 @@ export function Portfolio() {
     <section id="portfolio" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-[#2E5077] mb-12">
-          My Work
+          My Projects
         </h2>
-        <div className="grid md:grid-cols-2  gap-8">
+        <div className="grid lg:grid-cols-2  gap-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {miniProjects.map((project, index) => {
               return (
@@ -135,7 +135,7 @@ export function Portfolio() {
                     
                   }
                   <div className="flex justify-between items-center">
-                    <div className="grid grid-cols-6 gap-2">
+                    <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
                       {project.icons.map((ICON, index) => {
                         return (
                           <Tooltip message={project.tech[index]} key={index}>
