@@ -107,7 +107,7 @@ export function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full md:w-auto px-8 py-3 bg-[#79D7BE] text-white rounded-lg 
+              className="w-full md:w-auto px-8 py-3 bg-accent-teal text-white rounded-lg 
               hover:bg-[#6BC4AB] transition-colors duration-300 flex items-center justify-center gap-2"
             >
               <Send size={20} />

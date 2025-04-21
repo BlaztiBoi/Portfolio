@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { Header } from "./Header";
 // import FloatingHeader from "./common/FloatingHeader";
 // import FloatingHeader from "@/components/header/FloatingHeader";
 
@@ -7,7 +8,7 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <div className="relative min-h-screen">
-      {/* Floating Header */}
+      <Header/>
       {/* <FloatingHeader /> */}
 
       {/* Main Content */}
