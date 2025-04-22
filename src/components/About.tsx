@@ -300,7 +300,7 @@ export function About() {
               className="mt-2 md:hidden block w-full bg-accent-teal bg-opacity-50"
             >
               <span>My basic skills:</span>
-              <CarouselContent>
+              <CarouselContent className="">
                 {miniSkills.map((skill, index) => (
                   <CarouselItem
                     key={index}
@@ -315,7 +315,7 @@ export function About() {
                 ))}
               </CarouselContent>
               <CarouselPrevious className={`${darkMode ? "border-accent-teal bg-gray-900 hover:bg-gray-900" : "border-primary-navy"}  hover:text-inherit hover:ring-2 hover:ring-accent-teal border border-accent-teal transition`} />
-              <CarouselNext className={`${darkMode ? "border-accent-teal bg-gray-900 hover:bg-gray-900" : "border-primary-navy"}  hover:text-inherit hover:ring-2 hover:ring-accent-teal border border-accent-teal transition`}/>
+              <CarouselNext className={`mr-8 ${darkMode ? "border-accent-teal bg-gray-900 hover:bg-gray-900" : "border-primary-navy"}  hover:text-inherit hover:ring-2 hover:ring-accent-teal border border-accent-teal transition`}/>
             </Carousel>
       </div>
     </section>
