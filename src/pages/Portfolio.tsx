@@ -1,16 +1,18 @@
 
 import { Hero } from '../components/Hero';
 import { About } from '../components/About';
-import { Portfolio as PortfolioSection } from '../components/Portfolio';
+import { Projects } from '../components/Projects';
 import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
+import { Certificates } from '@/components/Certificates';
 
 export function Portfolio() {
   return (
     <div className="font-inter">
       <Hero />
       <About />
-      <PortfolioSection />
+      <Projects />
+      <Certificates/>
       <Contact />
       <Footer />
     </div>
