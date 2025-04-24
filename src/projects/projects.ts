@@ -56,7 +56,7 @@ const miniProjects: MiniProject[] = [
     description: "Interative invoice generator using JSPDF.",
     icons: [SiReact, SiTypescript , SiJavascript],
     tech: ["React", "TypeScript", "JSPDF"],
-    github: "https://github.com/BlaztiBoi",
+    github: "https://github.com/BlaztiBoi/Portfolio/tree/main/src/projects/invoice-gen",
     demo: "/projects/invoice-gen",
   },
   {
@@ -64,7 +64,7 @@ const miniProjects: MiniProject[] = [
     description: "Small shop with minimal morden dark theme design.",
     icons: [SiReact, SiTypescript , SiTailwindcss],
     tech: ["React", "TypeScript", "TailwindCSS"],
-    github: "https://github.com/BlaztiBoi",
+    github: "https://github.com/BlaztiBoi/Portfolio/tree/main/src/projects/minishop",
     demo: "/projects/minishop",
   },
   {
