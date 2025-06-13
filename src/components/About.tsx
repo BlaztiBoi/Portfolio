@@ -20,6 +20,7 @@ import {
   Settings2,
   ClipboardList,
   SearchCheck,
+  CircuitBoard,
 } from "lucide-react";
 import { useContext } from "react";
 import { themeContext } from "../App";
@@ -49,6 +50,7 @@ const miniSkills = [
   "Network Security",
   "Decision-Making",
   "Accounting",
+  "Audrino UNO",
   "Invoice Finance",
   "Computer Hardware",
   "Problem Solving",
@@ -292,7 +294,7 @@ export function About() {
               delay={40}
               reverse
             >
-              <SearchCheck />
+              <CircuitBoard />
             </OrbitingCircles>
           </div>
         </div>

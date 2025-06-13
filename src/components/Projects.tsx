@@ -20,8 +20,9 @@ export function Projects() {
           My Projects
         </h2>
         <div className="grid lg:grid-cols-2  gap-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {miniProjects.map((project, index) => {
+          <div >
+            <div className="grid grid-cols-1  sm:grid-cols-2 gap-6">
+              {miniProjects.map((project, index) => {
               return (
                 <div
                   key={index}
@@ -66,8 +67,9 @@ export function Projects() {
                 </div>
               );
             })}
+            </div>
           </div>
-          <div className="">
+          <div className="grid gap-4">
             {BigProjects.map((project) => (
               <div
                 key={project.title}

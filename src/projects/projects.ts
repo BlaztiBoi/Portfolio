@@ -4,7 +4,7 @@ import { Database, Plug } from "lucide-react";
 import { DiBootstrap, DiCss3, DiReact } from "react-icons/di";
 import { FaHtml5, FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa6";
-import { SiReact , SiJavascript, SiTailwindcss, SiTypescript, SiCss3, SiAxios, SiPhp, SiLaravel, SiBootstrap } from "react-icons/si";
+import { SiReact , SiJavascript, SiTailwindcss, SiTypescript, SiCss3, SiAxios, SiPhp, SiLaravel, SiBootstrap, SiReactrouter } from "react-icons/si";
 
 type BigProject = {
   title: string;
@@ -47,7 +47,17 @@ const BigProjects: BigProject[] = [
         tech: ["React Router Dom", "Database System"],
       },
     ],
-  }
+  },
+  {
+    title: "SuWayYar",
+    description:
+      "SuWayYar is a low-bandwidth-friendly platform for schools, startups, NGOs, and community groups to organize, learn, and collaborate together. ( This Project Is Mostly Just Design )",
+    image: "suwayar.png",
+    icons: [SiReact, SiTypescript , SiTailwindcss],
+    tech: ["React + React Router Dom", "Typescript", "TailwindCSS"],
+    github: "https://github.com/BlaztiBoi/suwayar-org-hub-9d612d28",
+    demo: "https://suwayar-org.vercel.app/",
+  },
 ];
 
 const miniProjects: MiniProject[] = [

@@ -2,6 +2,7 @@ import { CgIfDesign } from "react-icons/cg";
 import { FaSuitcase } from "react-icons/fa6";
 import { GiRelationshipBounds } from "react-icons/gi";
 import { PiBracketsCurly } from "react-icons/pi";
+import { RiNextjsFill, RiSupabaseFill } from "react-icons/ri";
 import { SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiJsonwebtokens, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbJson } from "react-icons/tb";
 
@@ -56,8 +57,27 @@ type Certificate = {
       link: "https://scrimba.com/certificate-cert29m6qiCmMf76fHxiedHUGL7kZobrKQGLthetx26ocgp5a",
       tech: ["TailwindCSS"],
       icons:[SiTailwindcss],
+    }, 
+     {
+      title: "Intro to Supabase",
+      issuer: "Scrimba",
+      description: "",
+      date: "May 2025",
+      badge: "certificates/supabase.png",
+      link: "https://scrimba.com/certificate-cert29m6qiCmMf76fHxiedHUJ4zhKxT4roLBMZsBd16FVD4ZR",
+      tech: ["Supabase"],
+      icons:[RiSupabaseFill],
     },
-
+    {
+      title: "Learn Next.js",
+      issuer: "Scrimba",
+      description: "",
+      date: "May 2025",
+      badge: "certificates/next.png",
+      link: "https://scrimba.com/certificate-cert29m6qiCmMf76fHxiedHUG82rBfr3DaVWzZnf6kkThHgQr",
+      tech: ["Next.JS"],
+      icons:[RiNextjsFill],
+    },
   ];
   
   export { certificates };
