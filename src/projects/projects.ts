@@ -32,23 +32,6 @@ type MiniProject = {
 
 const BigProjects: BigProject[] = [
   {
-    title: "Anime Archive",
-    description:
-      "( Work in progress ) A full-stack web application for anime enthusiasts to discover, watch, and organize their favorite anime shows. It features a profile system, anime database, studio information, and even character details.",
-    image: "animearchive.png",
-    icons: [SiReact, SiAxios, SiBootstrap, SiPhp, SiLaravel, Database],
-    tech: ["React + React Router Dom", "Axios", "Bootstrap", "PHP", "Laravel", "MySQL"],
-    github: "https://github.com/ToeOoWaiYan/AnimeArchive",
-    demo: "#",
-    collab: [
-      {
-        name: "Toe Oo Wai Yan",
-        github: "https://github.com/ToeOoWaiYan",
-        tech: ["React Router Dom", "Database System"],
-      },
-    ],
-  },
-  {
     title: "SuWayYar",
     description:
       "SuWayYar is a low-bandwidth-friendly platform for schools, startups, NGOs, and community groups to organize, learn, and collaborate together. ( This Project Is Mostly Just Design )",

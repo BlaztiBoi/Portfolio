@@ -1,6 +1,8 @@
+import { Code2, Computer, Globe } from "lucide-react";
 import { CgIfDesign } from "react-icons/cg";
 import { FaSuitcase } from "react-icons/fa6";
 import { GiRelationshipBounds } from "react-icons/gi";
+import { GoBrowser } from "react-icons/go";
 import { PiBracketsCurly } from "react-icons/pi";
 import { RiNextjsFill, RiSupabaseFill } from "react-icons/ri";
 import { SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiJsonwebtokens, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
@@ -27,6 +29,16 @@ type Certificate = {
       link: "http://www.scrimba.com/certificate/u7DYwzcd/gfrontend",
       tech: ["HTML5", "CSS3", "Javascript", "React" , "UI Design" ,  "Git & Github" , "APIs & JSON" , "Career Preparation" ],
       icons:[SiHtml5, SiCss3 , SiJavascript , SiReact , CgIfDesign ,  SiGithub , PiBracketsCurly , FaSuitcase]
+    },
+    {
+      title: "Certification of Participation IT Challenge",
+      issuer: "GUSTO College",
+      description: "IT Challege Competitions Between 8 Groups",
+      date: "December 2023",
+      badge: "achievements/certofParticipation.jpg",
+      link: "#",
+      tech: ["Networking" , "Programming" , "IT"],
+      icons:[Globe , Code2 , Computer],
     },
     {
       title: "Learn Typescript",
