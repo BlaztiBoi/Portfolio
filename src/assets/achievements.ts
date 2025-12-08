@@ -71,7 +71,7 @@ export const awards: AwardType[] = [
   {
     title: "Website Design Contest",
     issuer: "GUSTO College",
-    date: "2023",
+    date: "2025",
     note: `Competed against 4 groups on website design.`,
     image: "achievements/award_webdesigncontestaward.jpg",
     zoomedImage: "achievements/webdesigncontestaward.jpg",
@@ -80,7 +80,7 @@ export const awards: AwardType[] = [
     {
     title: "IoT People Choice Award",
     issuer: "GUSTO College",
-    date: "2023",
+    date: "2025",
     note: `A Group Project of 6 , Won with 50+ People Loving the Idea.`,
     image: "achievements/iotPeopleChoiceaward.jpg",
     zoomedImage: "achievements/AwardiotPeopleChoiceaward.jpg",
